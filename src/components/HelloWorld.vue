@@ -6,6 +6,7 @@
       check out the
       Просто какой-то текст, для теста
       И ещё текст
+      git pull origin master
       <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
     </p>
     <h3>Installed CLI Plugins</h3>
