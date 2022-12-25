@@ -95,11 +95,65 @@ export default {
 
 .phone, .email{
   font-size:20px;
+  
 }
 .form-group{
   width: 100%;
 }
 .info{
+  background: transparent;
+}.info:focus{
+   background: transparent;
+ }
+
+.form-control:focus{
+  color: #f7f7f7;
+  background-color: transparent;
+  border-color: #ff2200;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem transparent;
+}
+
+.text-head-footer{
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 1.215;
+  color: #fff;
+}
+
+.form-politics{
+  color: #ad1700;
+  text-decoration: none;
+}
+
+.form-politics:hover{
+  color: #e76652;
+  text-decoration: underline;
+}
+
+.text-extra-footer{
+  line-height: 1.55;
+  font-weight: 500;
+  font-size: 14px;
+  color: rgba(256,256,256,.7);
+  margin-bottom: 140px;
+}
+
+.btn-footer{
+  border: 2px solid #f14d34;
+  border-radius: 5px;
+  color: #fff;
+  text-transform: uppercase;
+  width: 100%;
+  height: 50px;
+  font-weight: 500;
+  font-size: 12px;
+  transition: background 300ms;
+  background: #f14d34;
+}
+
+.btn-footer:hover{
+  color: #fff;
   background: transparent;
 }
 
