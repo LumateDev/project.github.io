@@ -63,6 +63,43 @@
               </div>
             </form>
           </div>
+
+          <div class="col-12 footer-social">
+            <div class="row">
+              <div class="col-md-6 col-12">
+                <div class="row">
+                  <div class="social-block">
+                    <ul class="social-list">
+                      <li class="social-list-item">
+                        <a href="#"
+                        ><img src="@/assets/img/facebook.svg" alt=""
+                        /></a>
+                      </li>
+                      <li class="social-list-item">
+                        <a href="#"><img src="@/assets/img/vk.svg" alt="" /> </a>
+                      </li>
+                      <li class="social-list-item">
+                        <a href="#"
+                        ><img src="@/assets/img/telegram.svg" alt=""
+                        /></a>
+                      </li>
+                      <li class="social-list-item">
+                        <a href="#"><img src="@/assets/img/youtube.svg" alt=""/></a>
+                      </li>
+                    </ul>
+                    <div class="social-desc">
+                      <p>
+                        Проект ООО «Инитлаб», Краснодар, Россия.<br />
+                        Drupal является зарегистрированной торговой маркой Dries
+                        Buytaert.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
     </div>
@@ -95,16 +132,17 @@ export default {
 
 .phone, .email{
   font-size:20px;
-  
+
 }
 .form-group{
   width: 100%;
 }
 .info{
   background: transparent;
-}.info:focus{
-   background: transparent;
- }
+}
+.info:focus{
+  background: transparent;
+}
 
 .form-control:focus{
   color: #f7f7f7;
@@ -156,6 +194,49 @@ export default {
   color: #fff;
   background: transparent;
 }
-
+.footer-social {
+  position: relative;
+  padding-top: 60px;
+}
+.footer-social:before {
+  margin-top: 20px;
+  content: "";
+  position: absolute;
+  display: block;
+  left: 0;
+  top: 0;
+  right: 0;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.social-list {
+  list-style: none;
+  display: flex;
+  padding-left: 0px;
+}
+.social-list-item {
+  display: inline-block;
+  margin-right: 10px;
+}
+.social-list-item a {
+  width: 30px;
+  height: 30px;
+  background: #f14d34;
+  display: inline-block;
+  text-align: center;
+  border-radius: 5px;
+}
+.social-list-item img {
+  width: 18px;
+  height: 16px;
+  filter: invert(1);
+}
+.social-desc {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+  opacity: 0.5;
+}
 
 </style>
