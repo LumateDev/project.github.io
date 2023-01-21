@@ -348,6 +348,114 @@
     </div>
   </div>
   <!--------------------------------------------------------------------------------Support --->
+  <!------------------------------------------------------------------------------------Tarif-->
+  <div class="main-tarrifs">
+    <div class="container" id="tariffs">
+      <div class="col-md-12">
+        <div class="row text-center">
+          <h2 class="tariffs-label">Тарифы</h2>
+        </div>
+      </div>
+      <div class="col-md-12">
+        <div class="row tariff-list">
+          <div class="col-md-4 col-12 col-12 tariff-item">
+            <div class="tariff-header">
+              <div class="tariff-name">
+                Стартовый
+                <hr />
+              </div>
+            </div>
+            <div class="tariff-desc">
+              <p>Консультации и работы по SEO</p>
+              <p>Услуги дизайнера</p>
+              <p>
+                Неиспользованные<br />
+                оплаченные часы переносятся<br />
+                на следующий месяц
+              </p>
+              <p>
+                Предоплата от 6000 рублей в<br />
+                месяц
+              </p>
+            </div>
+            <div class="tariff-btn text-align-center">
+              <a href="" role="button" class="btn">Свяжитесь с нами!</a>
+            </div>
+          </div>
+          <div class="col-md-4 col-12 col-12 tariff-item active">
+            <div class="tariff-header">
+              <div class="tariff-name">
+                Бизнес
+                <hr />
+              </div>
+            </div>
+            <div class="tariff-desc">
+              <p>Консультации и работы по SEO</p>
+              <p>Услуги дизайнера</p>
+              <p>
+                Высокое время редакции - до 2 <br />
+                рабочих дней
+              </p>
+              <p>
+                Неиспользованные<br />
+                оплаченные часы не<br />
+                переносятся
+              </p>
+              <p>
+                Предоплата от 30000 рублей в<br />
+                месяц
+              </p>
+            </div>
+            <div class="tariff-btn text-align-center">
+              <a href="" role="button" class="btn">Свяжитесь с нами!</a>
+            </div>
+          </div>
+          <div class="col-md-4 col-12 col-12 tariff-item">
+            <div class="tariff-header">
+              <div class="tariff-name">
+                VIP
+                <hr />
+              </div>
+            </div>
+            <div class="tariff-desc">
+              <p>Консультации и работы по SEO</p>
+              <p>Услуги дизайнера</p>
+              <p>
+                Максимальное время реакции<br />
+                - в день обращения
+              </p>
+              <p>
+                Неиспользованные<br />
+                оплаченные часы не<br />
+                переносятся
+              </p>
+              <p>
+                Предоплата от 270 000 рублей в<br />
+                месяц
+              </p>
+            </div>
+            <div class="tariff-btn text-align-center">
+              <a href="" role="button" class="btn">Свяжитесь с нами!</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-12">
+        <div class="row text-center tariff-main-desc">
+          <p>
+            Вам не подходят наши тарифы? Оставьте заявку и мы <br />
+            предложим вам индивидуальные условия!
+          </p>
+        </div>
+        <div class="row text-center tariff-main-btn">
+          <div class="tariff-a">
+            <a href="#">Получить индивидуальный тариф</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!------------------------------------------------------------------------------------Tarif-->
 
 <!------------------------------------------------------------------------------------ Team -->
 <div class="main-team">
@@ -754,6 +862,152 @@ export default {
 .blog-date{
   color: lightgray;
 }
+/*Tarif*/
+
+.main-tarrifs {
+  padding-top: 100px;
+  position: relative;
+  background-color: #fff;
+  z-index: 4;
+  padding-bottom: 40px;
+}
+.main-tarrifs:before {
+  content: "";
+  background: url("@/assets/img/Dbg.png");
+ 
+  position: absolute;
+  left: 41%;
+  top: 0%;
+  bottom: 0%;
+  right: 0%;
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* opacity: 0.2; */
+}
+.tariffs-label {
+  position: relative;
+  font-weight: bold;
+  font-size: 24px;
+  color: #000;
+}
+.tariff-list {
+  margin-top: 20px;
+  position: relative;
+  justify-content: space-between;
+}
+.tariff-item {
+  background: #ffffff;
+  max-width: 280px;
+  width: 100%;
+  height: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.tariff-item.active {
+  transform: scale(1);
+}
+.tariff-item.active .tariff-btn {
+  background: #f14d34;
+  border-radius: 5px;
+}
+.tariff-item.active a {
+  color: #fff;
+}
+.tariff-name {
+  padding-top: 78px;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  color: #f14d34;
+}
+.tariff-desc {
+  font-weight: 500;
+  margin-top: 40px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #050c33;
+  opacity: 0.7;
+  margin-bottom: 50px;
+}
+.tariff-desc br {
+  display: none;
+}
+.tariff-desc p:before {
+  content: "";
+  display: block;
+  margin-top: 4px;
+  margin-right: 7px;
+  width: 13px;
+  height: 15px;
+  position: relative;
+  background: url("@/assets/img/v-sign.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-right: 16px;
+}
+.tariff-desc p {
+  display: flex;
+  margin-bottom: 20px;
+}
+.tariff-btn {
+  width: 100%;
+  margin-bottom: 50px;
+}
+.tariff-btn a {
+  display: block;
+  padding: 20px 10px;
+  border: 2px solid #f14d34;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #f14d34;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 12px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #f14d34;
+}
+hr {
+  color: black;
+  opacity: 0.2;
+  border: 1px solid black;
+  background-color: black;
+}
+.tariff-main-desc {
+  position: relative;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #050c33;
+  opacity: 0.5;
+  margin-top: 82px;
+}
+.tariff-main-desc br {
+  display: none;
+}
+.tariff-main-btn {
+  margin-top: 10px;
+  position: relative;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 0.06em;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+}
+.tariff-main-btn a {
+  color: #050c33;
+}
+
+/*end tarif */
 @media screen and (min-width: 770px){
   .blog-guts{
     height: 470px;

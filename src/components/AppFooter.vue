@@ -141,13 +141,8 @@ export default {
   background: transparent;
 }
 .info:focus{
-<<<<<<< HEAD
-   background: transparent;
- }
-=======
   background: transparent;
 }
->>>>>>> 0c1cc16ce5d05ea10905dbe0ac91a92beb6462f1
 
 .form-control:focus{
   color: #f7f7f7;
