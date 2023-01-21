@@ -349,6 +349,77 @@
   </div>
   <!--------------------------------------------------------------------------------Support --->
 
+<!------------------------------------------------------------------------------------ Team -->
+<div class="main-team">
+    <div class="container">
+      <div class="col-md-12">
+        <div class="row text-center">
+          <h2 class="team-label">Команда</h2>
+        </div>
+        <div class="row team-list">
+          <div class="col-md-4 col-sm-6 col-6 team-item">
+            <div class="team-img">
+              <img src="@/assets/img/IMG_2472_0.jpg" class="img-fluid" />
+            </div>
+            <div class="team-name">Сергей Синица</div>
+            <div class="team-desc">
+              Руководитель отдела веб-<br />разработки, канд. техн. наук,
+              <br />заместитель директора
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 col-6 team-item">
+            <div class="team-img">
+              <img src="@/assets/img/IMG_2539_0.jpg" class="img-fluid" />
+            </div>
+            <div class="team-name">Роман Агабеков</div>
+            <div class="team-desc">
+              Руководитель отдела DevOPS,<br />
+              директор
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 col-6 team-item">
+            <div class="team-img">
+              <img src="@/assets/img/IMG_2474_1.jpg" class="img-fluid" />
+            </div>
+            <div class="team-name">Алексей Синица</div>
+            <div class="team-desc">
+              Руководитель отдела<br />
+              поддержки сайтов
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 col-6 team-item">
+            <div class="team-img">
+              <img src="@/assets/img/IMG_2522_0.jpg" class="img-fluid" />
+            </div>
+            <div class="team-name">Дарья Бочкарёва</div>
+            <div class="team-desc">
+              Руководитель отдела<br />
+              продвижения, контекстной<br />
+              рекламы и контент-поддержки<br />
+              сайтов
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 col-6 team-item">
+            <div class="team-img">
+              <img src="@/assets/img/IMG_9971_16.jpg" class="img-fluid" />
+            </div>
+            <div class="team-name">Ирина Торкунова</div>
+            <div class="team-desc">
+              Менеджер по работе с<br />
+              клиентами
+            </div>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="team-btn">
+            <a href="#">Вся команда</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!------------------------------------------------------------------------------------Team -->
+
   <!----------------------------------------------------------------------------------Cases -->
   <div id="blogger" class="container blog my-4">
     <h1 class="text-center mb-5"> Последние кейсы</h1>
@@ -600,10 +671,42 @@ export default {
     width: 70%;
   }
 }
-/* cases*/
-.price-text p{
-  margin-bottom: 5px;
+/* team */
+
+.team-label {
+    position: relative;
+    font-weight: 700;
+    font-size: 24px;
+    color: #050c33;
+    margin-bottom: 80px;
 }
+.team-name {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #050c33;
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+.team-desc {
+    font-weight: 500;
+    font-size: 12px;
+    color: #050c33;
+    opacity: .7;
+}
+.team-btn a {
+    font-size: 12px;
+    color: #050c33;
+    text-transform: uppercase;
+    padding: 12px 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+/* cases*/
+
 .blog{
   max-width: 960px;
   font-size: 16px;
@@ -665,9 +768,22 @@ export default {
     height: 200px;
   }
 }
-.member_picture img{
-  max-width: 100%;
-  max-height: 100%;
-}
 
+@media (min-width: 767px){
+.team-label {
+    font-size: 42px;
+    line-height: 51px;
+}
+}
+@media (min-width: 767px){
+.team-desc {
+    font-size: 16px;
+    line-height: 22px;
+ }
+}
+@media (min-width: 767px){
+  .team-btn a {
+    padding: 24px 75px;
+}
+}
 </style>
