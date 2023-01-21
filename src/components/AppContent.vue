@@ -348,6 +348,54 @@
     </div>
   </div>
   <!--------------------------------------------------------------------------------Support --->
+  <div class="main-addition">
+    <div class="container">
+      <div class="col-md-12">
+        <div class="row">
+          <h2 class="addition-label">
+            Наши профессиональные разработчики <br />
+            выполняют быстро любые задачи
+          </h2>
+        </div>
+      </div>
+      <div class="col-md-12 additions-list">
+        <div class="row justify-content-around">
+          <div class="col-md-3 col-sm-4 col-12 addition-item">
+            <div class="addition-bg">
+              <img src="@/assets/img/competency-20.svg" class="img-fluid" />
+            </div>
+            <div class="addition-head">
+              <div class="addition-num">от 1ч</div>
+              <div class="addition-desc">
+                Настройка события GA <br />в интернет-магазине
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-4 col-12 addition-item">
+            <div class="addition-bg">
+              <img src="@/assets/img/competency-21.svg" class="img-fluid" />
+            </div>
+            <div class="addition-head">
+              <div class="addition-num">от 20ч</div>
+              <div class="addition-desc">
+                Разработка мобильной <br />
+                версии сайта
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-4 col-12 addition-item">
+            <div class="addition-bg">
+              <img src="@/assets/img/competency-22.svg" class="img-fluid" />
+            </div>
+            <div class="addition-head">
+              <div class="addition-num">от 8ч</div>
+              <div class="addition-desc">Интеграция <br />модуля оплаты</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
 <!------------------------------------------------------------------------------------ Team -->
 <div class="main-team">
@@ -515,14 +563,368 @@
       </div>
     </div>
   </div>
-  <!----------------------------------------------------------------------------------Cases -->
-
+    <!----------------------------------------------------------------------------------faq -->
+    <div class="main-faq">
+    <div class="container">
+      <div class="col-md-12">
+        <div class="row">
+          <h2 class="faq-label text-center">FAQ</h2>
+        </div>
+      </div>
+      <div class="col-md-12">
+        <div class="row">
+          <div class="accordion" id="">
+            <div class="accordion-item opened">
+              <h2 class="accordion-header" id="">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                >
+                  <span class="accordion-num">1.</span>Кто непосредственно
+                  занимается поддержкой?
+                </button>
+              </h2>
+              <div
+                id="collapseOne"
+                class="accordion-collapse collapse show"
+                aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  Сайты поддерживают штатные сотрудники ООО «Инитлаб», г.
+                  Краснодар, прошедшие специальное обучение и имеющие опыт
+                  работы с Друпал от 4 до 15 лет: 8 web-разработчиков, 2
+                  специалиста по SEO, 4 системных администратора.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="collapseTwo"
+                >
+                  <span class="accordion-num">2.</span>Как организована работа
+                  поддержки?
+                </button>
+              </h2>
+              <div
+                id="collapseTwo"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  Сайты поддерживают штатные сотрудники ООО «Инитлаб», г.
+                  Краснодар, прошедшие специальное обучение и имеющие опыт
+                  работы с Друпал от 4 до 15 лет: 8 web-разработчиков, 2
+                  специалиста по SEO, 4 системных администратора.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree"
+                  aria-expanded="false"
+                  aria-controls="collapseThree"
+                >
+                  <span class="accordion-num">3.</span>Что происходит, когда
+                  отработаны все предоплаченные часы за месяц?
+                </button>
+              </h2>
+              <div
+                id="collapseThree"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  Сайты поддерживают штатные сотрудники ООО «Инитлаб», г.
+                  Краснодар, прошедшие специальное обучение и имеющие опыт
+                  работы с Друпал от 4 до 15 лет: 8 web-разработчиков, 2
+                  специалиста по SEO, 4 системных администратора.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingFour">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseFour"
+                  aria-expanded="false"
+                  aria-controls="collapseFour"
+                >
+                  <span class="accordion-num">4.</span>Что происходит, когда не
+                  отработаны все предоплаченные часы за месяц?
+                </button>
+              </h2>
+              <div
+                id="collapseFour"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingFour"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  Сайты поддерживают штатные сотрудники ООО «Инитлаб», г.
+                  Краснодар, прошедшие специальное обучение и имеющие опыт
+                  работы с Друпал от 4 до 15 лет: 8 web-разработчиков, 2
+                  специалиста по SEO, 4 системных администратора.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingFive">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseFive"
+                  aria-expanded="false"
+                  aria-controls="collapseFive"
+                >
+                  <span class="accordion-num">5.</span>Как происходит оценка и
+                  согласование планируемого времени на выполнение заявок?
+                </button>
+              </h2>
+              <div
+                id="collapseFive"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingFive"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  Сайты поддерживают штатные сотрудники ООО «Инитлаб», г.
+                  Краснодар, прошедшие специальное обучение и имеющие опыт
+                  работы с Друпал от 4 до 15 лет: 8 web-разработчиков, 2
+                  специалиста по SEO, 4 системных администратора.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingSix">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseSix"
+                  aria-expanded="false"
+                  aria-controls="collapseSix"
+                >
+                  <span class="accordion-num">6.</span>Сколько программистов
+                  выделяется на проект?
+                </button>
+              </h2>
+              <div
+                id="collapseSix"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingSix"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  Сайты поддерживают штатные сотрудники ООО «Инитлаб», г.
+                  Краснодар, прошедшие специальное обучение и имеющие опыт
+                  работы с Друпал от 4 до 15 лет: 8 web-разработчиков, 2
+                  специалиста по SEO, 4 системных администратора.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingSeven">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseSeven"
+                  aria-expanded="false"
+                  aria-controls="collapseSeven"
+                >
+                  <span class="accordion-num">7.</span>Как подать заявку на
+                  внесение изменений на сайте?
+                </button>
+              </h2>
+              <div
+                id="collapseSeven"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingSeven"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  Сайты поддерживают штатные сотрудники ООО «Инитлаб», г.
+                  Краснодар, прошедшие специальное обучение и имеющие опыт
+                  работы с Друпал от 4 до 15 лет: 8 web-разработчиков, 2
+                  специалиста по SEO, 4 системных администратора.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingEight">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseEight"
+                  aria-expanded="false"
+                  aria-controls="collapseEight"
+                >
+                  <span class="accordion-num">8.</span>Как подать заявку на
+                  добавление пользователя, изменение настроек веб-сервера и
+                  других задач по администрированию?
+                </button>
+              </h2>
+              <div
+                id="collapseEight"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingEight"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  Сайты поддерживают штатные сотрудники ООО «Инитлаб», г.
+                  Краснодар, прошедшие специальное обучение и имеющие опыт
+                  работы с Друпал от 4 до 15 лет: 8 web-разработчиков, 2
+                  специалиста по SEO, 4 системных администратора.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingNine">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseNine"
+                  aria-expanded="false"
+                  aria-controls="collapseNine"
+                >
+                  <span class="accordion-num">9.</span>В течение какого времени
+                  начинается работа по заявке?
+                </button>
+              </h2>
+              <div
+                id="collapseNine"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingNine"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  Сайты поддерживают штатные сотрудники ООО «Инитлаб», г.
+                  Краснодар, прошедшие специальное обучение и имеющие опыт
+                  работы с Друпал от 4 до 15 лет: 8 web-разработчиков, 2
+                  специалиста по SEO, 4 системных администратора.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTen">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTen"
+                  aria-expanded="false"
+                  aria-controls="collapseTen"
+                >
+                  <span class="accordion-num">10.</span>В какое время работает
+                  поддержка?
+                </button>
+              </h2>
+              <div
+                id="collapseTen"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingTen"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  Сайты поддерживают штатные сотрудники ООО «Инитлаб», г.
+                  Краснодар, прошедшие специальное обучение и имеющие опыт
+                  работы с Друпал от 4 до 15 лет: 8 web-разработчиков, 2
+                  специалиста по SEO, 4 системных администратора.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingEleven">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseEleven"
+                  aria-expanded="false"
+                  aria-controls="collapseEleven"
+                >
+                  <span class="accordion-num">11.</span>Подходят ли услуги
+                  поддержки, если необходимо произвести обновление ядра Drupal
+                  или модулей?
+                </button>
+              </h2>
+              <div
+                id="collapseEleven"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingEleven"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  Сайты поддерживают штатные сотрудники ООО «Инитлаб», г.
+                  Краснодар, прошедшие специальное обучение и имеющие опыт
+                  работы с Друпал от 4 до 15 лет: 8 web-разработчиков, 2
+                  специалиста по SEO, 4 системных администратора.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwelve">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwelve"
+                  aria-expanded="false"
+                  aria-controls="collapseTwelve"
+                >
+                  <span class="accordion-num">12.</span>Можно ли пообщаться со
+                  специалистом голосом или в мессенджере?
+                </button>
+              </h2>
+              <div
+                id="collapseTwelve"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingTwelve"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  Сайты поддерживают штатные сотрудники ООО «Инитлаб», г.
+                  Краснодар, прошедшие специальное обучение и имеющие опыт
+                  работы с Друпал от 4 до 15 лет: 8 web-разработчиков, 2
+                  специалиста по SEO, 4 системных администратора.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+      <!----------------------------------------------------------------------------------faq -->
 </template>
 
 <script>
 export default {
   name: 'AppContent',
 }
+
 </script>
 
 <style scoped>
@@ -672,7 +1074,41 @@ export default {
   }
 }
 /* team */
-
+.addition-bg {
+    position: relative;
+    z-index: 5;
+}
+.main-team {
+    position: relative;
+    padding-top: 50px;
+}
+.main-addition {
+    position: relative;
+    padding-top: 40px;
+}
+.addition-label {
+    font-weight: 700;
+    font-size: 24px;
+    color: #050c33;
+}
+.container {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.team-item {
+    position: relative;
+    margin-bottom: 20px;
+}
+.addition-num {
+    font-size: 28px;
+    font-weight: 700;
+    color: #050c33;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
 .team-label {
     position: relative;
     font-weight: 700;
@@ -694,6 +1130,9 @@ export default {
     color: #050c33;
     opacity: .7;
 }
+.team-btn {
+    margin-bottom: 90px;
+}
 .team-btn a {
     font-size: 12px;
     color: #050c33;
@@ -704,6 +1143,13 @@ export default {
     text-decoration: none;
     font-weight: 500;
 }
+.text-center {
+    text-align: center!important;
+}
+/* workers*/
+
+/* review */
+
 
 /* cases*/
 
@@ -754,6 +1200,111 @@ export default {
 .blog-date{
   color: lightgray;
 }
+/* faq */
+.main-faq {
+  position: relative;
+  margin-bottom: 50px;
+}
+.faq-label {
+  position: relative;
+  font-weight: bold;
+  font-size: 24px;
+  color: #050c33;
+  margin-bottom: 30px;
+}
+.accordion-button {
+  display: flex;
+  align-items: inherit;
+  position: relative;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  color: #050c33;
+  line-height: 1;
+  transition: color 0.3s;
+}
+.accordion-item {
+  border: 0;
+  transition: border-color 0.35s;
+  border: 3px solid transparent;
+  border-radius: 0;
+  padding-bottom: 10px;
+}
+.accordion-body {
+  font-weight: 500;
+  font-size: 14px;
+  color: #050c33;
+  line-height: 1.37;
+  opacity: 0.7;
+}
+.accordion-num {
+  display: block;
+  min-width: 15px;
+  text-align: right;
+  font-weight: bold;
+  font-size: 12px;
+  color: #828a9b;
+  margin-top: 1px;
+  margin-right: 3px;
+}
+.accordion-button:not(.collapsed) {
+  color: #f14e3b;
+  background: transparent;
+  box-shadow: none;
+}
+.accordion-button::after {
+  display: none;
+}
+.accordion-item:not(:first-of-type) {
+  border-top: 3px solid transparent;
+}
+.accordion-button {
+  padding: 0.5rem 1.25rem;
+}
+.accordion-button:focus {
+  border: none;
+  box-shadow: none;
+}
+.accordion-item.opened {
+  border-color: #f14e3b;
+}
+.accordion-body {
+  padding: 0rem 2.75rem;
+  padding-right: 0rem;
+  padding-left: 2rem;
+}
+.accordion-item:first-of-type {
+  border-radius: 0;
+}
+.accordion-item:not(:first-of-type) {
+  border-color: transparent;
+  transition: border-color 0.35s;
+}
+.accordion-item.opened:not(:first-of-type) {
+  border: 3px solid;
+  border-color: #f14e3b;
+}
+@media (min-width: 767px){
+.accordion-body {
+    font-size: 16px;
+    padding-right: 2.75rem;
+    padding-left: 2.75rem;
+}
+}
+@media (min-width: 767px){
+.accordion-button {
+    font-size: 18px;
+    line-height: 1.22;
+    align-items: center;
+}
+}
+@media (min-width: 767px){
+.faq-label {
+    font-size: 42px;
+    line-height: 51px;
+    margin-bottom: 80px;
+}
+}
 @media screen and (min-width: 770px){
   .blog-guts{
     height: 470px;
@@ -784,6 +1335,35 @@ export default {
 @media (min-width: 767px){
   .team-btn a {
     padding: 24px 75px;
+}
+}
+@media (min-width: 767px){
+.team-item {
+    padding: 0 50px;
+    margin-bottom: 70px;
+}
+}
+@media (min-width: 767px){
+.container {
+    max-width: 1170px;
+    padding: 0;
+}
+}
+@media (min-width: 767px){
+.addition-label {
+    font-size: 42px;
+    line-height: 51px;
+    margin-bottom: 30px;
+}
+}
+@media (min-width: 767px){
+.main-addition {
+    padding-top: 160px;
+}
+}
+@media (min-width: 767px){
+.main-team {
+    padding-top: 160px;
 }
 }
 </style>
