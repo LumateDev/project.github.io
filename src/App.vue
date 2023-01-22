@@ -1,20 +1,17 @@
 <template>
-	<AppHeader></AppHeader>
-	<AppContent></AppContent>
-	<AppFooter></AppFooter>
+	<MainPage></MainPage>
 </template>
 
 <script>
-import AppHeader from '@/components/AppHeader.vue'
-import AppContent from '@/components/AppContent.vue'
-import AppFooter from '@/components/AppFooter.vue'
+import MainPage from '@/components/MainPage.vue'
 
 export default {
 	name: 'App',
 	components: {
-		AppHeader,
-		AppContent,
-		AppFooter,
+		MainPage,
+	},
+	data() {
+		return {}
 	},
 	mounted() {},
 }
