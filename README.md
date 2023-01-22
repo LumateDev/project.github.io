@@ -1,24 +1,7 @@
-# test
+Проект по предмету: Разработка пользовательского Web-интерфейса
 
-## Project setup
-```
-npm install
-```
+Участники:
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Емельяненко Александр 24/1,
+Владарчук Дмитрий 24/1,
+Сидоренко Максим 24/1.

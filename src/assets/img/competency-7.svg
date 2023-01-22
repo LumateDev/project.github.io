@@ -1,0 +1,23 @@
+<svg width="81" height="81" viewBox="0 0 81 81" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0)">
+<path d="M5 24V63C5 65.7614 7.23858 68 10 68H52M5 24V16C5 13.2386 7.23858 11 10 11H70C72.7614 11 75 13.2386 75 16V49.5M5 24H40H74.5" stroke="#F14D34" stroke-width="2.5"/>
+<path d="M78.7149 68.0659L73.7231 63.0742C74.8647 59.7626 74.076 55.8951 71.379 53.1981C68.6067 50.4258 64.5975 49.6699 61.2266 50.9543L66.4576 56.1853L65.4646 60.4647L61.1852 61.4576L55.9543 56.2266C54.6699 59.5975 55.4258 63.6067 58.1981 66.379C60.8951 69.076 64.7625 69.8647 68.0742 68.7231L73.0659 73.7149" stroke="#050C33" stroke-width="2.5"/>
+<path d="M11 18H14" stroke="#F14D34" stroke-width="2.5"/>
+<path d="M17 18H20" stroke="#F14D34" stroke-width="2.5"/>
+<path d="M23 18H26" stroke="#F14D34" stroke-width="2.5"/>
+<path d="M16 32V35M16 58.5V44.25" stroke="#F14D34" stroke-width="2.5"/>
+<circle cx="16" cy="38" r="3" stroke="#F14D34" stroke-width="2.5"/>
+<path d="M26 32V48M26 58.5V56" stroke="#F14D34" stroke-width="2.5"/>
+<circle cx="26" cy="50" r="3" stroke="#F14D34" stroke-width="2.5"/>
+<path d="M36 32V39M36 58.5V48" stroke="#F14D34" stroke-width="2.5"/>
+<circle cx="36" cy="42" r="3" stroke="#F14D34" stroke-width="2.5"/>
+<rect x="48" y="32" width="19" height="7" rx="1" stroke="#F14D34" stroke-width="2.5"/>
+<path d="M48 44L67 44" stroke="#F14D34" stroke-width="2.5"/>
+<path d="M48 48L57 48" stroke="#F14D34" stroke-width="2.5"/>
+</g>
+<defs>
+<clipPath id="clip0">
+<rect width="81" height="81" fill="white"/>
+</clipPath>
+</defs>
+</svg>
