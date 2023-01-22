@@ -1,5 +1,5 @@
 <template>
-	<!------------------------------------------------------------------------------------------------------------>
+	<router-view></router-view>
 	<header class="mob-nav">
 		<div class="container header">
 			<div class="header-logo">
@@ -1296,11 +1296,34 @@
 </template>
 
 <script>
- export default {
-	name: 'MainPage',
+import Form from './Form.vue'
+var globalID
+export default {
+	components: { Form },
+
+	watch: {
+		$route(to, from) {
+			if (to.path == '/form') {
+				globalID = requestAnimationFrame(this.repeatOften)
+			} else {
+				cancelAnimationFrame(globalID)
+			}
+		},
+	},
 }
 </script>
 
 <style>
-
+.route-enter-from {
+	opacity: 0;
+}
+.route-enter-active {
+	transition: all 0.3s ease-out;
+}
+.route-leave-to {
+	opacity: 0;
+}
+.route-leave-active {
+	transition: all 0.3s ease-in;
+}
 </style>

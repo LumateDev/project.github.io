@@ -1,15 +1,12 @@
 <template>
-	<MainPage></MainPage>
+	<router-view />
 </template>
 
 <script>
-import MainPage from '@/components/MainPage.vue'
-
 export default {
+	/* eslint-disable */
 	name: 'App',
-	components: {
-		MainPage,
-	},
+	components: {},
 	data() {
 		return {}
 	},
@@ -17,9 +14,4 @@ export default {
 }
 </script>
 
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700;900&display=swap');
-#app {
-	font-family: 'Montserrat', sans-serif;
-}
-</style>
+<style></style>
