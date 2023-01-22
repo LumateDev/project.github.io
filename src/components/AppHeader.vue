@@ -62,11 +62,7 @@
 								aria-labelledby="navbarDropdown-1"
 							>
 								<li>
-									<a
-										class="dropdown-item text-light"
-										href="https://github.com/SergeiB2002/Project"
-										>Миграция</a
-									>
+									<a class="dropdown-item text-light" href="">Миграция</a>
 								</li>
 								<li><a class="dropdown-item text-light" href="#">Бэкапы</a></li>
 								<li>
