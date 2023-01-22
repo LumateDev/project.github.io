@@ -877,21 +877,21 @@ hr {
 	color: #ffffff;
 	opacity: 0.5;
 }
-/* MAIN REVIEWS */
-.main-reviews {
+/* MAIN Feedback */
+.main-feedback {
 	padding-top: 60px;
 	background: url('./img/right-quote-sign.svg') no-repeat;
 	position: relative;
 	background-size: 27%;
 }
-.reviews-label {
+.feedback-label {
 	position: relative;
 	font-weight: bold;
 	font-size: 24px;
 	color: #050c33;
 	margin-bottom: 0;
 }
-.reviews-container {
+.feedback-container {
 	position: relative;
 	width: 980px;
 	margin: auto;
@@ -900,7 +900,7 @@ hr {
 	z-index: 10;
 	margin-bottom: 40px;
 }
-.reviews-container:before {
+.feedback-container:before {
 	content: '';
 	display: block;
 	background: #ffffff;
@@ -917,7 +917,7 @@ hr {
 	z-index: 5;
 	width: 80%;
 }
-.reviews-container:after {
+.feedback-container:after {
 	content: '';
 	display: block;
 	background: #ffffff;
@@ -934,32 +934,18 @@ hr {
 	z-index: 5;
 	width: 90%;
 }
-.reviews-carousel {
+.feedback-carousel {
 	display: flex;
 }
-.review-logo img {
+.feedback-logo img {
 	margin: unset;
 	text-align: unset;
 }
-.carousel-wrapper {
-	position: relative;
-	z-index: 10;
-	display: block;
-	padding: 0px;
-	padding-right: 0;
-	flex-wrap: wrap;
-	background: #ffffff;
-	border: 1px solid rgba(0, 0, 0, 0.1);
-	box-sizing: border-box;
-	box-shadow: 0px 4px 60px rgba(162, 162, 162, 0.25);
-	border-radius: 5px;
-	padding-left: 20px;
-	padding-top: 20px;
-}
-.review-logo {
+
+.feedback-logo {
 	margin-bottom: 40px;
 }
-.review-desc {
+.feedback-desc {
 	font-weight: bold;
 	font-size: 14px;
 	line-height: 1.22;
@@ -967,17 +953,38 @@ hr {
 	margin-bottom: 0px;
 	display: inline-block;
 }
-.review-desc p {
+.feedback-desc p {
 	display: block;
 	padding-right: 10px;
 }
-.review-author {
+.feedback-author {
 	line-height: 1.22;
 	font-size: 14px;
 	color: #838b9c;
 	font-weight: 500;
 	padding-bottom: 10px;
 }
+.feedback-nav {
+	margin: auto;
+	display: flex;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.feedback-counter {
+	font-weight: normal;
+	font-size: 28px;
+	line-height: 28px;
+	color: #e0e0e0;
+	padding-left: 22px;
+	padding-right: 22px;
+	vertical-align: super;
+}
+.feedback-counter-active {
+	color: #050c33;
+}
+
+/*End of Feedback*/
+
 .carousel-wrapper .slick-slider {
 	width: 90%;
 	padding: 0;
@@ -1011,24 +1018,7 @@ hr {
 	width: 90%;
 	display: flex;
 }
-.reviews-nav {
-	margin: auto;
-	display: flex;
-	margin-top: 20px;
-	margin-bottom: 20px;
-}
-.reviews-counter {
-	font-weight: normal;
-	font-size: 28px;
-	line-height: 28px;
-	color: #e0e0e0;
-	padding-left: 22px;
-	padding-right: 22px;
-	vertical-align: super;
-}
-.reviews-counter-active {
-	color: #050c33;
-}
+
 /* MAIN WORKERS */
 .main-workers {
 	margin-top: 100px;

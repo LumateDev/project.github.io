@@ -867,6 +867,33 @@
 			</div>
 		</div>
 	</div>
+	<!----------------------------------------FeedBack------------------------------------------>
+	<div class="main-feedback">
+    <div class="container">
+      <div class="col-md-12">
+        <div class="row text-center">
+          <h2 class="feedback-label">
+            Отзывы
+          </h2>
+        </div>
+      </div>
+      <div class="col-md-12">
+        <div class="container">
+          <div class="feedback-container">
+            <div class="carousel-wrapper">
+              <Feedback v-bind:reviewsSliderItems="reviewsSliderItems" />
+              <div class="carousel-nav">
+                <div class="feedback-nav">
+                  <span class="feedback-counter"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+	<!----------------------------------------FeedBack------------------------------------------>
 	<!---------------------------------------------------------------------------------------- -->
 	<div class="main-faq">
 		<div class="container">
@@ -1297,9 +1324,10 @@
 
 <script>
 import Form from './Form.vue'
+import Feedback from "./Feedback.vue";
 var globalID
 export default {
-	components: { Form },
+	components: { Feedback,Form },
 
 	watch: {
 		$route(to, from) {
