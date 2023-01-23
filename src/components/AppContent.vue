@@ -707,9 +707,9 @@
 			</div>
 			<div class="col-md-12">
 				<div class="row">
-					<div class="accordion" id="">
+					<div class="accordion" id="accordionExample">
 						<div class="accordion-item opened">
-							<h2 class="accordion-header" id="">
+							<h2 class="accordion-header" id="headingOne">
 								<button
 									class="accordion-button"
 									type="button"
@@ -1063,6 +1063,7 @@ export default {
 </script>
 
 <style scoped>
+
 @media (max-width: 1300px) {
 	.container {
 		position: relative;
@@ -1492,88 +1493,80 @@ a:active {
 }
 /* faq */
 .main-faq {
-	position: relative;
-	margin-bottom: 50px;
+  position: relative;
+  margin-bottom: 50px;
 }
 .faq-label {
-	position: relative;
-	font-weight: bold;
-	font-size: 24px;
-	color: #050c33;
-	margin-bottom: 30px;
-}
-.accordion-button {
-	display: flex;
-	align-items: inherit;
-	position: relative;
-	text-decoration: none;
-	font-weight: bold;
-	font-size: 16px;
-	color: #050c33;
-	line-height: 1;
-	transition: color 0.3s;
+  position: relative;
+  font-weight: bold;
+  font-size: 24px;
+  color: #050c33;
+  margin-bottom: 30px;
 }
 .accordion-item {
-	border: 0;
-	transition: border-color 0.35s;
-	border: 3px solid transparent;
-	border-radius: 0;
-	padding-bottom: 10px;
+  border: 0;
+  transition: border-color 0.35s;
+  border: 3px solid transparent;
+  border-radius: 0;
+  padding-bottom: 10px;
 }
-.accordion-body {
-	font-weight: 500;
-	font-size: 14px;
-	color: #050c33;
-	line-height: 1.37;
-	opacity: 0.7;
-}
-.accordion-num {
-	display: block;
-	min-width: 15px;
-	text-align: right;
-	font-weight: bold;
-	font-size: 12px;
-	color: #828a9b;
-	margin-top: 1px;
-	margin-right: 3px;
-}
-.accordion-button:not(.collapsed) {
-	color: #f14e3b;
-	background: transparent;
-	box-shadow: none;
-}
-.accordion-button::after {
-	display: none;
-}
-.accordion-item:not(:first-of-type) {
-	border-top: 3px solid transparent;
+.accordion-header {
+    margin-bottom: 0;
 }
 .accordion-button {
-	padding: 0.5rem 1.25rem;
+  display: flex;
+  align-items: inherit;
+  position: relative;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  color: #050c33;
+  line-height: 1;
+  transition: color 0.3s;
+}
+.accordion-button:not(.collapsed) {
+  color: #f14e3b;
+  background: transparent;
+  box-shadow: none;
+}
+.accordion-button::after {
+  display: none;
+}
+.accordion-button {
+  padding: 0.5rem 1.25rem;
 }
 .accordion-button:focus {
-	border: none;
-	box-shadow: none;
+  border: none;
+  box-shadow: none;
 }
-.accordion-item.opened {
-	border-color: #f14e3b;
+.accordion-num {
+  display: block;
+  min-width: 15px;
+  text-align: right;
+  font-weight: bold;
+  font-size: 12px;
+  color: #828a9b;
+  margin-top: 1px;
+  margin-right: 3px;
 }
 .accordion-body {
-	padding: 0rem 2.75rem;
-	padding-right: 0rem;
-	padding-left: 2rem;
+  font-weight: 500;
+  font-size: 14px;
+  color: #050c33;
+  line-height: 1.37;
+  opacity: 0.7;
 }
-.accordion-item:first-of-type {
-	border-radius: 0;
+.accordion-body {
+  padding: 0rem 2.75rem;
+  padding-right: 0rem;
+  padding-left: 2rem;
 }
-.accordion-item:not(:first-of-type) {
-	border-color: transparent;
-	transition: border-color 0.35s;
-}
-.accordion-item.opened:not(:first-of-type) {
-	border: 3px solid;
-	border-color: #f14e3b;
-}
+.accordion-body {
+    font-size: 16px;
+    padding-right: 2.75rem;
+    padding-left: 2.75rem;
+  }
+/* end faq */
 @media (min-width: 767px) {
 	.accordion-body {
 		font-size: 16px;
