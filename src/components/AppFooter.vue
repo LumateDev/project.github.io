@@ -14,14 +14,19 @@
               Срочно нужна поддержка сайта? Ваша команда не успевает справиться самостоятельно или предыдущий подрядчик не справился с работой?
               Тогда вам точно к нам! Просто оставьте заявку и наш менеджер с вами свяжется!
             </p>
-            <div class="text-start">
+            <div class="text-start phone">
+              <img src="../assets/img/phoneicon.png" alt="">
               <a class="text-light text-decoration-none phone" href="">
+                
                 8 800 222-26-73
+              
               </a>
             </div>
-            <div class="text-start">
+            <div class="text-start email">
+              <img src="..//assets/img/mail.png" alt="">
               <a class="text-light email" href="">
-                info@drupal-coder.ru
+                
+                    info@drupal-coder.ru 
               </a>
             </div>
           </div>
@@ -58,7 +63,7 @@
                   </label><br/>
                 </div>
                 <div class="col-12 mt-3">
-                  <input class="btn btn-footer" type="submit" id="Button" value="Свяжитесь с нами!" disabled>
+                  <button class="btn btn-footer" type="submit" id="Button">Свяжитесь с нами! </button>
                 </div>
               </div>
             </form>
@@ -114,11 +119,25 @@ export default {
 
 <style scoped>
 
+
+
 .footer-region{
   position: relative;
   width: 100%;
   height: auto;
+  background: linear-gradient(
+      261.2deg,
+      rgba(255, 255, 255, 0.276) -114.85%,
+      rgba(255, 255, 255, 0) 69.04%
+    ),
+    url("../assets/img/D-flying.svg") top center, url("../assets/img/D.png") bottom right,
+    #040613;
+  background-repeat: no-repeat;
+  background-size: cover, 220px, 360px;
+  padding-top: 35px;
+  padding-bottom: 45px;
 }
+
 
 .footer-region-background{
   position: absolute;
@@ -130,18 +149,42 @@ export default {
   bottom:0;
 }
 
-.phone, .email{
-  font-size:20px;
+.phone {
+  font-size:24px;
+  align-items: right;
+  position: relative;
+  text-decoration: none;
+  color: #fff;
+ 
+
 
 }
-.form-group{
-  width: 100%;
+.email{
+  position: relative;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 150%;
+  text-decoration-line: underline;
+ 
+
 }
-.info{
-  background: transparent;
+.form-control{
+  color:#fff;
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 13px 12px;
+  margin-bottom: 7px;
+  
 }
-.info:focus{
-  background: transparent;
+
+.form-control::placeholder {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #fff;
+  opacity: 1;
 }
 
 .form-control:focus{
@@ -150,6 +193,14 @@ export default {
   border-color: #ff2200;
   outline: 0;
   box-shadow: 0 0 0 0.25rem transparent;
+}
+.info textarea{
+  background-color: #040613;
+}
+
+.form-group{
+  width: 100%;
+  margin-left: 60px;
 }
 
 .text-head-footer{
@@ -162,6 +213,7 @@ export default {
 .form-politics{
   color: #ad1700;
   text-decoration: none;
+  margin-left: 0px;
 }
 
 .form-politics:hover{
@@ -188,15 +240,16 @@ export default {
   font-size: 12px;
   transition: background 300ms;
   background: #f14d34;
+  margin-left: 60px;
 }
 
 .btn-footer:hover{
-  color: #fff;
-  background: transparent;
+  background-color: #fa735f;
 }
 .footer-social {
   position: relative;
   padding-top: 60px;
+ 
 }
 .footer-social:before {
   margin-top: 20px;
