@@ -166,7 +166,6 @@ export default {
   line-height: 150%;
   text-decoration-line: underline;
  
-
 }
 .form-control{
   color:#fff;
@@ -291,5 +290,41 @@ export default {
   color: #ffffff;
   opacity: 0.5;
 }
+
+@media (max-width:440px) {
+  .footer-social {
+  position: relative;
+}
+.form-group{
+  width: 100%;
+  margin-left: 0px;
+}
+
+.btn-footer{
+  margin-left: 0px;
+}
+.social-desc p {
+  text-shadow: 1px 0 1px #000, 
+0 1px 1px #000, 
+-1px 0 1px #000, 
+0 -1px 1px #000;
+  color:#fff;
+  opacity: 1000%;
+  font-size: 14px;
+  font-stretch: ultra-expanded;
+
+}
+.text-head-footer{
+  font-size: 28px;
+  margin-top: 110px;
+}
+.text-extra-footer{
+  margin-top: 30px;
+  font-size: 14px;
+  margin-bottom: 40px;
+}
+
+}
+
 
 </style>
