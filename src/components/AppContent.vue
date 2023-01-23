@@ -1328,7 +1328,7 @@ export default {
 }
 .tariff-item {
 	background: #ffffff;
-	max-width: 280px;
+	max-width: 330px;
 	width: 100%;
 	height: auto;
 	padding-left: 30px;
