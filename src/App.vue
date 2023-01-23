@@ -1,17 +1,28 @@
 <template>
-	<router-view />
+	<AppHeader></AppHeader>
+	<AppContent></AppContent>
+	<AppFooter></AppFooter>
 </template>
 
 <script>
+import AppHeader from '@/components/AppHeader.vue'
+import AppContent from '@/components/AppContent.vue'
+import AppFooter from '@/components/AppFooter.vue'
+
 export default {
-	/* eslint-disable */
 	name: 'App',
-	components: {},
-	data() {
-		return {}
+	components: {
+		AppHeader,
+		AppContent,
+		AppFooter,
 	},
 	mounted() {},
 }
 </script>
 
-<style></style>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700;900&display=swap');
+#app {
+	font-family: 'Montserrat', sans-serif;
+}
+</style>
