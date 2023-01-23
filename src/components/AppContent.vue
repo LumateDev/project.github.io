@@ -352,8 +352,8 @@
 	<div class="main-tarrifs">
 		<div class="container" id="tariffs">
 			<div class="col-md-12">
-				<div class="row text-center">
-					<h2 class="tariffs-label">Тарифы</h2>
+				<div class="row">
+					<h2 class="text-center">Тарифы</h2>
 				</div>
 			</div>
 			<div class="col-md-12">
@@ -581,7 +581,7 @@
 
 	<!----------------------------------------------------------------------------------Cases -->
 	<div id="blogger" class="container blog my-4">
-		<h1 class="text-center mb-5">Последние кейсы</h1>
+		<h1 class="text-center2 mb-5">Последние кейсы</h1>
 		<div class="row gy-4">
 			<div class="blog-guts col-12 col-md-4">
 				<div class="blog-body position-relative">
@@ -702,7 +702,7 @@
 		<div class="container">
 			<div class="col-md-12">
 				<div class="row">
-					<h2 class="faq-label text-center">FAQ</h2>
+					<h2 class="faq-label text-center3">FAQ</h2>
 				</div>
 			</div>
 			<div class="col-md-12">
@@ -1279,7 +1279,22 @@ export default {
 	font-weight: 500;
 }
 .text-center {
-	text-align: center !important;
+	text-align: center;
+	font-size: 42px;
+	font-weight: 700;
+	margin: 30px 15px 30px 15px;
+}
+.text-center2 {
+	text-align: center;
+	font-size: 42px;
+	font-weight: 700;
+	margin: 200px 15px 30px 15px;
+}
+.text-center3 {
+	text-align: center;
+	font-size: 42px;
+	font-weight: 700;
+	margin: 100px 15px 0px 15px;
 }
 /* workers*/
 
@@ -1305,12 +1320,7 @@ export default {
 	background-size: cover;
 	/* opacity: 0.2; */
 }
-.tariffs-label {
-	position: relative;
-	font-weight: bold;
-	font-size: 24px;
-	color: #000;
-}
+
 .tariff-list {
 	margin-top: 20px;
 	position: relative;
