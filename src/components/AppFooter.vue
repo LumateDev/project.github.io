@@ -257,6 +257,9 @@ export default {
   height: 16px;
   filter: invert(1);
 }
+.form-row{
+  color:#fff;
+}
 
 .social-desc {
   font-weight: normal;

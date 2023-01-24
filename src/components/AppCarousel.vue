@@ -58,8 +58,6 @@ export default defineComponent({
   line-height: 51px;
   text-align: center;
   margin-top: 150px;
-  /* main-black */
-
   color: #050C33;
 }
 .carousel__text {
@@ -68,12 +66,7 @@ export default defineComponent({
   font-weight: 500;
   font-size: 16px;
   line-height: 22px;
-  /* or 138% */
-
   text-align: center;
-
-  /* main-black */
-
   color: #050C33;
   width: 50%;
   margin: 20px auto;
@@ -81,4 +74,11 @@ export default defineComponent({
   opacity: 0.7;
 }
 
+@media (max-width: 440px) {
+  .carousel-wrapper img{
+    max-width: 70px;
+    max-height: 100px;
+    
+  }
+}
 </style>
