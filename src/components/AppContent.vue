@@ -379,7 +379,7 @@
 							</p>
 						</div>
 						<div class="tariff-btn text-align-center">
-							<a href="" role="button" class="btn">Свяжитесь с нами!</a>
+							<button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">Свяжитесь с нами!</button>
 						</div>
 					</div>
 					<div class="col-md-4 col-12 col-12 tariff-item active">
@@ -407,7 +407,8 @@
 							</p>
 						</div>
 						<div class="tariff-btn text-align-center">
-							<a href="" role="button" class="btn">Свяжитесь с нами!</a>
+							<button type="button" class="btn btn__center" data-bs-toggle="modal" data-bs-target="#exampleModal">Свяжитесь с
+                нами!</button>
 						</div>
 					</div>
 					<div class="col-md-4 col-12 col-12 tariff-item">
@@ -435,7 +436,7 @@
 							</p>
 						</div>
 						<div class="tariff-btn text-align-center">
-							<a href="" role="button" class="btn">Свяжитесь с нами!</a>
+							<button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">Свяжитесь с нами!</button>
 						</div>
 					</div>
 				</div>
@@ -1300,6 +1301,8 @@ export default {
 /* workers*/
 
 /* team */
+
+/* Tafif */
 .main-tarrifs {
 	padding-top: 100px;
 	position: relative;
@@ -1331,6 +1334,9 @@ export default {
 	background: #ffffff;
 	max-width: 330px;
 	width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 	height: auto;
 	padding-left: 30px;
 	padding-right: 30px;
@@ -1338,7 +1344,6 @@ export default {
 	box-sizing: border-box;
 	border-radius: 5px;
 	margin: 0 auto;
-	margin-bottom: 20px;
 }
 .tariff-item.active {
 	transform: scale(1);
@@ -1390,9 +1395,13 @@ export default {
 	width: 100%;
 	margin-bottom: 50px;
 }
-.tariff-btn a {
+.tariff-btn .btn__center {
+  color: white;
+}
+.tariff-btn button {
+  margin: 0 auto;
 	display: block;
-	padding: 20px 10px;
+	padding: 20px 50px;
 	border: 2px solid #f14d34;
 	border-radius: 5px;
 	text-decoration: none;
@@ -1437,6 +1446,11 @@ hr {
 .tariff-main-btn a {
 	color: #050c33;
 }
+
+
+
+
+/*end Tarif*/
 
 /* cases*/
 

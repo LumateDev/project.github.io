@@ -1,6 +1,7 @@
 <template>
 	<AppHeader></AppHeader>
 	<AppContent></AppContent>
+	<AppModal></AppModal>
 	<AppFooter></AppFooter>
 </template>
 
@@ -8,10 +9,12 @@
 import AppHeader from '@/components/AppHeader.vue'
 import AppContent from '@/components/AppContent.vue'
 import AppFooter from '@/components/AppFooter.vue'
+import AppModal from "@/components/AppModal.vue"
 
 export default {
 	name: 'App',
 	components: {
+		AppModal,
 		AppHeader,
 		AppContent,
 		AppFooter,
