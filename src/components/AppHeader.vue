@@ -4,66 +4,104 @@
 			<div class="header-logo">
 				<img src="../assets/img/drupal-coder.svg" />
 			</div>
+
+			<!--------------------------------------------------------------------------------HeaderNav --->
 			<div class="header-navigation">
 				<nav>
 					<ul class="header-nav-menu d-flex justify-content-between">
-						<li class="header-nav-menu-item active">
+						<li class="header-nav-menu-item">
 							<a href="#">Поддержка Drupal</a>
 						</li>
-						<li class="header-nav-menu-item drop" id="Dropdown1">
-							<a
-								href="#"
-								class="dropdown-toggle"
-								role="button"
-								data-bs-hover="dropdown"
-								aria-expanded="false"
-								id="Dropdown1"
-								>Администрирование</a
-							>
-							<ul aria-labelledby="Dropdown1" class="dropdown-menu">
-								<li><a class="dropdown-item" href="#">Миграция</a></li>
-								<li><a class="dropdown-item" href="#">Бэкапы</a></li>
-								<li>
-									<a class="dropdown-item" href="#">Аудит Безопасности</a>
-								</li>
-								<li>
-									<a class="dropdown-item" href="#">Оптимизация скорости</a>
-								</li>
-								<li>
-									<a class="dropdown-item" href="#">Переезд на Https</a>
-								</li>
-							</ul>
+						<li>
+							<div class="dropdown">
+								<a
+									class="header-nav-menu-item dropdown-toggle"
+									href="#"
+									role="button"
+									id="dropdownMenuLink"
+									data-bs-toggle="dropdown"
+									aria-expanded="false"
+								>
+									Администрирование
+								</a>
+
+								<ul
+									class="dropdown-menu mt-2"
+									aria-labelledby="dropdownMenuLink"
+								>
+									<li>
+										<a class="dropdown-item p-2 text-uppercase" href="#"
+											>Миграция</a
+										>
+									</li>
+									<li>
+										<a class="dropdown-item p-2 text-uppercase" href="#"
+											>Бэкапы</a
+										>
+									</li>
+									<li>
+										<a class="dropdown-item p-2 text-uppercase" href="#"
+											>Аудит безопастности</a
+										>
+									</li>
+									<li>
+										<a class="dropdown-item p-2 text-uppercase" href="#"
+											>Оптимизация скорости</a
+										>
+									</li>
+									<li>
+										<a class="dropdown-item p-2 text-uppercase" href="#"
+											>Переезд на https</a
+										>
+									</li>
+								</ul>
+							</div>
 						</li>
+
 						<li class="header-nav-menu-item">
 							<a href="#">Продвижение</a>
 						</li>
 						<li class="header-nav-menu-item"><a href="#">Реклама</a></li>
-						<li class="header-nav-menu-item drop" id="Dropdown2">
-							<a
-								href="#"
-								class="dropdown-toggle"
-								role="button"
-								id="Dropdown2"
-								data-bs-toggle="dropdown"
-								aria-expanded="false"
-								>О нас</a
-							>
-							<ul aria-labelledby="Dropdown2" class="dropdown-menu">
-								<li><a class="dropdown-item" href="#">Наша команда</a></li>
-								<li><a class="dropdown-item" href="#">Отдых</a></li>
-								<li>
-									<a class="dropdown-item" href="#">Достижения</a>
-								</li>
-								<li>
-									<a class="dropdown-item" href="#">История</a>
-								</li>
-							</ul>
+
+						<li>
+							<div class="dropdown">
+								<a
+									class="header-nav-menu-item dropdown-toggle"
+									href="#"
+									role="button"
+									id="dropdownMenuLink"
+									data-bs-toggle="dropdown"
+									aria-expanded="false"
+								>
+									О нас
+								</a>
+
+								<ul
+									class="dropdown-menu mt-2"
+									aria-labelledby="dropdownMenuLink"
+								>
+									<li>
+										<a class="dropdown-item p-2" href="#">Наша команда</a>
+									</li>
+									<li><a class="dropdown-item p-2" href="#">Отдых</a></li>
+									<li>
+										<a class="dropdown-item p-2" href="#">Достижения</a>
+									</li>
+									<li>
+										<a class="dropdown-item p-2" href="#">История</a>
+									</li>
+								</ul>
+							</div>
 						</li>
+
 						<li class="header-nav-menu-item"><a href="#">Проекты</a></li>
 						<li class="header-nav-menu-item"><a href="#">Контакты</a></li>
 					</ul>
 				</nav>
 			</div>
+			<!--------------------------------------------------------------------------------HeaderNav --->
+
+			<!--------------------------------------------------------------------------------MobileNav --->
 			<div class="btn-group dropup">
 				<a
 					role="button"
@@ -127,6 +165,7 @@
 					<li><a class="dropdown-item" href="#">Контакты</a></li>
 				</ul>
 			</div>
+			<!--------------------------------------------------------------------------------MobileNav --->
 		</div>
 	</header>
 	<div class="main-info">
@@ -230,10 +269,11 @@ export default {
 }
 /* Header */
 header {
-	width: 100%;
+	width: 96%;
 	background: black;
 	position: fixed;
 	bottom: -3px;
+
 	z-index: 100;
 }
 .header-navigation {
