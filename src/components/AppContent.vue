@@ -1,513 +1,513 @@
 <template>
 	<!--------------------------------------------------------------------------------Competency --->
 	<div class="container-fluid competency-region">
-		<div class="competencies">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-6">
-						<h1 class="competency-title">
-							13 лет совершенствуем компетенции в Drupal поддержке!
-						</h1>
-						<div class="competencies-description">
-							Разрабатываем и оптимизируем модули, расширяем функциональность
-							сайтов, обновляем дизайн
-						</div>
-					</div>
-				</div>
-				<div class="row row-flex competencies-row">
-					<div class="col-6 col-sm-3">
-						<div class="competency mb-3">
-							<div class="competency-wrapper">
-								<div class="competency-header">
-									<div class="competency-icon">
-										<img
-											alt="Добавление информации на сайт, создание новых разделов"
-											src="../assets/img/competency-1.svg"
-											class="img-responsive"
-										/>
-									</div>
-								</div>
-								<div class="competency-body">
-									Добавление <br />
-									информации на сайт,<br />
-									создание новых <br />
-									разделов
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-6 col-md-3">
-						<div class="competency">
-							<div class="competency-wrapper">
-								<div class="competency-header">
-									<div class="competency-icon">
-										<img
-											alt="Разработка и оптимизация модулей сайта"
-											src="../assets/img/competency-2.svg"
-											class="img-responsive"
-										/>
-									</div>
-								</div>
-								<div class="competency-body">
-									Разработка <br />
-									и оптимизация <br />
-									модулей сайта
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-6 col-md-3">
-						<div class="competency">
-							<div class="competency-wrapper">
-								<div class="competency-header">
-									<div class="competency-icon">
-										<img
-											alt="Интеграция"
-											src="../assets/img/competency-3.svg"
-											class="img-responsive"
-										/>
-									</div>
-								</div>
-								<div class="competency-body">
-									Интеграция с CRM, <br />
-									1C, платежными <br />
-									системами, любыми <br />
-									веб-сервисами
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-6 col-md-3">
-						<div class="competency">
-							<div class="competency-wrapper">
-								<div class="competency-header">
-									<div class="competency-icon">
-										<img
-											alt="Доработки"
-											src="../assets/img/competency-4.svg"
-											class="img-responsive"
-										/>
-									</div>
-								</div>
-								<div class="competency-body">
-									Любые доработки <br />
-									функционала <br />
-									и дизайна
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-6 col-md-3">
-						<div class="competency">
-							<div class="competency-wrapper">
-								<div class="competency-header">
-									<div class="competency-icon">
-										<img
-											alt="Безопасность"
-											src="../assets/img/competency-5.svg"
-											class="img-responsive"
-										/>
-									</div>
-								</div>
-								<div class="competency-body">
-									Аудит и мониторинг <br />
-									безопасности Drupal <br />
-									сайтов
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-6 col-md-3">
-						<div class="competency">
-							<div class="competency-wrapper">
-								<div class="competency-header">
-									<div class="competency-icon">
-										<img
-											alt="Миграция"
-											src="../assets/img/competency-6.svg"
-											class="img-responsive"
-										/>
-									</div>
-								</div>
-								<div class="competency-body">
-									Миграция, импорт <br />
-									контента и апгрейд <br />
-									Drupal
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-6 col-md-3">
-						<div class="competency">
-							<div class="competency-wrapper">
-								<div class="competency-header">
-									<div class="competency-icon">
-										<img
-											alt="Оптимизация"
-											src="../assets/img/competency-7.svg"
-											class="img-responsive"
-										/>
-									</div>
-								</div>
-								<div class="competency-body">
-									Оптимизация <br />
-									и ускорение <br />
-									Drupal-сайтов
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-6 col-md-3">
-						<div class="competency">
-							<div class="competency-wrapper">
-								<div class="competency-header">
-									<div class="competency-icon">
-										<img
-											alt="SEO"
-											src="../assets/img/competency-8.svg"
-											class="img-responsive"
-										/>
-									</div>
-								</div>
-								<div class="competency-body">
-									Веб-маркетинг, <br />
-									консультации <br />
-									и работы по SEO
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!--------------------------------------------------------------------------------Competency --->
+  <div class="competencies">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h1 class="competency-title">
+            13 лет совершенствуем компетенции в Drupal поддержке!
+          </h1>
+          <div class="competencies-description">
+            Разрабатываем и оптимизируем модули, расширяем функциональность
+            сайтов, обновляем дизайн
+          </div>
+        </div>
+      </div>
+      <div class="row row-flex competencies-row">
+        <div class="col-6 col-sm-3">
+          <div class="competency mb-3">
+            <div class="competency-wrapper">
+              <div class="competency-header">
+                <div class="competency-icon">
+                  <img
+                      alt="Добавление информации на сайт, создание новых разделов"
+                      src="../assets/img/competency-1.svg"
+                      class="img-responsive"
+                  />
+                </div>
+              </div>
+              <div class="competency-body">
+                Добавление <br />
+                информации на сайт,<br />
+                создание новых <br />
+                разделов
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="competency">
+            <div class="competency-wrapper">
+              <div class="competency-header">
+                <div class="competency-icon">
+                  <img
+                      alt="Разработка и оптимизация модулей сайта"
+                      src="../assets/img/competency-2.svg"
+                      class="img-responsive"
+                  />
+                </div>
+              </div>
+              <div class="competency-body">
+                Разработка <br />
+                и оптимизация <br />
+                модулей сайта
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="competency">
+            <div class="competency-wrapper">
+              <div class="competency-header">
+                <div class="competency-icon">
+                  <img
+                      alt="Интеграция"
+                      src="../assets/img/competency-3.svg"
+                      class="img-responsive"
+                  />
+                </div>
+              </div>
+              <div class="competency-body">
+                Интеграция с CRM, <br />
+                1C, платежными <br />
+                системами, любыми <br />
+                веб-сервисами
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="competency">
+            <div class="competency-wrapper">
+              <div class="competency-header">
+                <div class="competency-icon">
+                  <img
+                      alt="Доработки"
+                      src="../assets/img/competency-4.svg"
+                      class="img-responsive"
+                  />
+                </div>
+              </div>
+              <div class="competency-body">
+                Любые доработки <br />
+                функционала <br />
+                и дизайна
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="competency">
+            <div class="competency-wrapper">
+              <div class="competency-header">
+                <div class="competency-icon">
+                  <img
+                      alt="Безопасность"
+                      src="../assets/img/competency-5.svg"
+                      class="img-responsive"
+                  />
+                </div>
+              </div>
+              <div class="competency-body">
+                Аудит и мониторинг <br />
+                безопасности Drupal <br />
+                сайтов
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="competency">
+            <div class="competency-wrapper">
+              <div class="competency-header">
+                <div class="competency-icon">
+                  <img
+                      alt="Миграция"
+                      src="../assets/img/competency-6.svg"
+                      class="img-responsive"
+                  />
+                </div>
+              </div>
+              <div class="competency-body">
+                Миграция, импорт <br />
+                контента и апгрейд <br />
+                Drupal
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="competency">
+            <div class="competency-wrapper">
+              <div class="competency-header">
+                <div class="competency-icon">
+                  <img
+                      alt="Оптимизация"
+                      src="../assets/img/competency-7.svg"
+                      class="img-responsive"
+                  />
+                </div>
+              </div>
+              <div class="competency-body">
+                Оптимизация <br />
+                и ускорение <br />
+                Drupal-сайтов
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="competency">
+            <div class="competency-wrapper">
+              <div class="competency-header">
+                <div class="competency-icon">
+                  <img
+                      alt="SEO"
+                      src="../assets/img/competency-8.svg"
+                      class="img-responsive"
+                  />
+                </div>
+              </div>
+              <div class="competency-body">
+                Веб-маркетинг, <br />
+                консультации <br />
+                и работы по SEO
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!--------------------------------------------------------------------------------Competency --->
 
-	<!--------------------------------------------------------------------------------Support --->
-	<div class="support">
-		<div class="container">
-			<div class="row">
-				<h2 class="col-md-12 support-text">Поддержка<br />от Drupal-coder</h2>
-			</div>
-			<div class="row row-flex support-row">
-				<div class="col-12 col-sm-6 col-md-3 serv-cols">
-					<div class="support-service">
-						<div class="serv-num">01.</div>
-						<div class="serv-body">
-							<h2 class="serv-article">Постановка задачи по Email</h2>
-							<div class="serv-body-text">
-								Удобная и привычная модель постановки задач, при которой задачи
-								фиксируются и никогда не теряются.
-							</div>
-						</div>
-						<div class="serv-img">
-							<img src="../assets/img/support1.svg" alt="Email" />
-						</div>
-					</div>
-				</div>
-				<div class="col-12 col-sm-6 col-md-3 serv-cols">
-					<div class="support-service">
-						<div class="serv-num">02.</div>
-						<div class="serv-body">
-							<h2 class="serv-article">
-								Система Helpdesk – отчетность, прозрачность
-							</h2>
-							<div class="serv-body-text">
-								Возможность посмотреть все заявки в работе и отработанные часы в
-								личном кабинете через браузер.
-							</div>
-						</div>
-						<div class="serv-img">
-							<img src="../assets/img/support2.svg" alt="Helpdesk" />
-						</div>
-					</div>
-				</div>
-				<div class="col-12 col-sm-6 col-md-3 serv-cols">
-					<div class="support-service">
-						<div class="serv-num">03.</div>
-						<div class="serv-body">
-							<h2 class="serv-article">Расширенная техническая поддержка</h2>
-							<div class="serv-body-text">
-								Возможность организации расширенной техподдержки с 6:00 до 22:00
-								без выходных.
-							</div>
-						</div>
-						<div class="serv-img">
-							<img src="../assets/img/support3.svg" alt="Helpdesk" />
-						</div>
-					</div>
-				</div>
-				<div class="col-12 col-sm-6 col-md-3 serv-cols">
-					<div class="support-service">
-						<div class="serv-num">04.</div>
-						<div class="serv-body">
-							<h2 class="serv-article">Персональный менеджер проекта</h2>
-							<div class="serv-body-text">
-								Ваш менеджер проекта всегда в курсе текущего состояния проекта и
-								в любой момент готов ответить на любые вопросы.
-							</div>
-						</div>
-						<div class="serv-img">
-							<img src="../assets/img/support4.svg" alt="Helpdesk" />
-						</div>
-					</div>
-				</div>
-				<div class="col-12 col-sm-6 col-md-3 serv-cols">
-					<div class="support-service">
-						<div class="serv-num">05.</div>
-						<div class="serv-body">
-							<h2 class="serv-article">Удобные способы оплаты</h2>
-							<div class="serv-body-text">
-								Безналичный расчет по договору или электронные деньги: WebMoney,
-								Яндекс.Деньги, Paypal.
-							</div>
-						</div>
-						<div class="serv-img">
-							<img src="../assets/img/support5.svg" alt="Helpdesk" />
-						</div>
-					</div>
-				</div>
-				<div class="col-12 col-sm-6 col-md-3 serv-cols">
-					<div class="support-service">
-						<div class="serv-num">06.</div>
-						<div class="serv-body">
-							<h2 class="serv-article">Работаем с SLA и NDA</h2>
-							<div class="serv-body-text">
-								Работа в рамках соглашений о конфиденциальности и об уровне
-								качетсва работ.
-							</div>
-						</div>
-						<div class="serv-img">
-							<img src="../assets/img/support6.svg" alt="Helpdesk" />
-						</div>
-					</div>
-				</div>
-				<div class="col-12 col-sm-6 col-md-3 serv-cols">
-					<div class="support-service">
-						<div class="serv-num">07.</div>
-						<div class="serv-body">
-							<h2 class="serv-article">Штатные специалисты</h2>
-							<div class="serv-body-text">
-								Надежные штатные специалисты, никаких фрилансеров.
-							</div>
-						</div>
-						<div class="serv-img">
-							<img src="../assets/img/support7.svg" alt="Helpdesk" />
-						</div>
-					</div>
-				</div>
-				<div class="col-12 col-sm-6 col-md-3 serv-cols">
-					<div class="support-service">
-						<div class="serv-num">08.</div>
-						<div class="serv-body">
-							<h2 class="serv-article">Удобные каналы связи</h2>
-							<div class="serv-body-text">
-								Консультации по телефону, скайпу, в месенджерах.
-							</div>
-						</div>
-						<div class="serv-img">
-							<img src="../assets/img/support8.svg" alt="Helpdesk" />
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+  <!--------------------------------------------------------------------------------Support --->
+  <div class="support">
+    <div class="container">
+      <div class="row">
+        <h2 class="col-md-12 support-text">Поддержка<br />от Drupal-coder</h2>
+      </div>
+      <div class="row row-flex support-row">
+        <div class="col-12 col-sm-6 col-md-3 serv-cols">
+          <div class="support-service">
+            <div class="serv-num">01.</div>
+            <div class="serv-body">
+              <h2 class="serv-article">Постановка задачи по Email</h2>
+              <div class="serv-body-text">
+                Удобная и привычная модель постановки задач, при которой задачи
+                фиксируются и никогда не теряются.
+              </div>
+            </div>
+            <div class="serv-img">
+              <img src="../assets/img/support1.svg" alt="Email" />
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-3 serv-cols">
+          <div class="support-service">
+            <div class="serv-num">02.</div>
+            <div class="serv-body">
+              <h2 class="serv-article">
+                Система Helpdesk – отчетность, прозрачность
+              </h2>
+              <div class="serv-body-text">
+                Возможность посмотреть все заявки в работе и отработанные часы в
+                личном кабинете через браузер.
+              </div>
+            </div>
+            <div class="serv-img">
+              <img src="../assets/img/support2.svg" alt="Helpdesk" />
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-3 serv-cols">
+          <div class="support-service">
+            <div class="serv-num">03.</div>
+            <div class="serv-body">
+              <h2 class="serv-article">Расширенная техническая поддержка</h2>
+              <div class="serv-body-text">
+                Возможность организации расширенной техподдержки с 6:00 до 22:00
+                без выходных.
+              </div>
+            </div>
+            <div class="serv-img">
+              <img src="../assets/img/support3.svg" alt="Helpdesk" />
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-3 serv-cols">
+          <div class="support-service">
+            <div class="serv-num">04.</div>
+            <div class="serv-body">
+              <h2 class="serv-article">Персональный менеджер проекта</h2>
+              <div class="serv-body-text">
+                Ваш менеджер проекта всегда в курсе текущего состояния проекта и
+                в любой момент готов ответить на любые вопросы.
+              </div>
+            </div>
+            <div class="serv-img">
+              <img src="../assets/img/support4.svg" alt="Helpdesk" />
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-3 serv-cols">
+          <div class="support-service">
+            <div class="serv-num">05.</div>
+            <div class="serv-body">
+              <h2 class="serv-article">Удобные способы оплаты</h2>
+              <div class="serv-body-text">
+                Безналичный расчет по договору или электронные деньги: WebMoney,
+                Яндекс.Деньги, Paypal.
+              </div>
+            </div>
+            <div class="serv-img">
+              <img src="../assets/img/support5.svg" alt="Helpdesk" />
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-3 serv-cols">
+          <div class="support-service">
+            <div class="serv-num">06.</div>
+            <div class="serv-body">
+              <h2 class="serv-article">Работаем с SLA и NDA</h2>
+              <div class="serv-body-text">
+                Работа в рамках соглашений о конфиденциальности и об уровне
+                качетсва работ.
+              </div>
+            </div>
+            <div class="serv-img">
+              <img src="../assets/img/support6.svg" alt="Helpdesk" />
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-3 serv-cols">
+          <div class="support-service">
+            <div class="serv-num">07.</div>
+            <div class="serv-body">
+              <h2 class="serv-article">Штатные специалисты</h2>
+              <div class="serv-body-text">
+                Надежные штатные специалисты, никаких фрилансеров.
+              </div>
+            </div>
+            <div class="serv-img">
+              <img src="../assets/img/support7.svg" alt="Helpdesk" />
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-3 serv-cols">
+          <div class="support-service">
+            <div class="serv-num">08.</div>
+            <div class="serv-body">
+              <h2 class="serv-article">Удобные каналы связи</h2>
+              <div class="serv-body-text">
+                Консультации по телефону, скайпу, в месенджерах.
+              </div>
+            </div>
+            <div class="serv-img">
+              <img src="../assets/img/support8.svg" alt="Helpdesk" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-	<div class="experience">
-		<div class="container">
-			<div class="row">
-				<div class="col-0 col-md-6"></div>
-				<div class="col-12 col-md-6">
-					<div class="row">
-						<div class="col-md-6">
-							<h2>
-								Экспертиза в Drupal,<br />
-								опыт 14 лет!
-							</h2>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-12 col-sm-6 mb-2">
-							<div class="experience-body">
-								Только системный подход – контроль версий, резервирование и
-								тестирование!
-							</div>
-						</div>
-						<div class="col-12 col-sm-6 mb-2">
-							<div class="experience-body">
-								Только Drupal сайты, не берем на поддержку сайты на других CMS!
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="laptop-pic">
-			<img src="../assets/img/laptop.png" alt="Ноутбук" class="laptop-left" />
-		</div>
-	</div>
+  <div class="experience">
+    <div class="container">
+      <div class="row">
+        <div class="col-0 col-md-6"></div>
+        <div class="col-12 col-md-6">
+          <div class="row">
+            <div class="col-md-6">
+              <h2>
+                Экспертиза в Drupal,<br />
+                опыт 14 лет!
+              </h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 col-sm-6 mb-2">
+              <div class="experience-body">
+                Только системный подход – контроль версий, резервирование и
+                тестирование!
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 mb-2">
+              <div class="experience-body">
+                Только Drupal сайты, не берем на поддержку сайты на других CMS!
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="laptop-pic">
+      <img src="../assets/img/laptop.png" alt="Ноутбук" class="laptop-left" />
+    </div>
+  </div>
 
-	<!------------------------------------------------------------------------------------Tarif-->
-	<div class="main-tarrifs">
-		<div class="container" id="tariffs">
-			<div class="col-md-12">
-				<div class="row">
-					<h2 class="text-center">Тарифы</h2>
-				</div>
-			</div>
-			<div class="col-md-12">
-				<div class="row tariff-list">
-					<div class="col-md-4 col-12 col-12 tariff-item">
-						<div class="tariff-header">
-							<div class="tariff-name">
-								Стартовый
-								<hr />
-							</div>
-						</div>
-						<div class="tariff-desc">
-							<p>Консультации и работы по SEO</p>
-							<p>Услуги дизайнера</p>
-							<p>
-								Неиспользованные<br />
-								оплаченные часы переносятся<br />
-								на следующий месяц
-							</p>
-							<p>
-								Предоплата от 6000 рублей в<br />
-								месяц
-							</p>
-						</div>
-						<div class="tariff-btn text-align-center">
-							<button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">Свяжитесь с нами!</button>
-						</div>
-					</div>
-					<div class="col-md-4 col-12 col-12 tariff-item active">
-						<div class="tariff-header">
-							<div class="tariff-name">
-								Бизнес
-								<hr />
-							</div>
-						</div>
-						<div class="tariff-desc">
-							<p>Консультации и работы по SEO</p>
-							<p>Услуги дизайнера</p>
-							<p>
-								Высокое время редакции - до 2 <br />
-								рабочих дней
-							</p>
-							<p>
-								Неиспользованные<br />
-								оплаченные часы не<br />
-								переносятся
-							</p>
-							<p>
-								Предоплата от 30000 рублей в<br />
-								месяц
-							</p>
-						</div>
-						<div class="tariff-btn text-align-center">
-							<button type="button" class="btn btn__center" data-bs-toggle="modal" data-bs-target="#exampleModal">Свяжитесь с
+  <!------------------------------------------------------------------------------------Tarif-->
+  <div class="main-tarrifs">
+    <div class="container" id="tariffs">
+      <div class="col-md-12">
+        <div class="row">
+          <h2 class="text-center">Тарифы</h2>
+        </div>
+      </div>
+      <div class="col-md-12">
+        <div class="row tariff-list">
+          <div class="col-md-4 col-12 col-12 tariff-item">
+            <div class="tariff-header">
+              <div class="tariff-name">
+                Стартовый
+                <hr />
+              </div>
+            </div>
+            <div class="tariff-desc">
+              <p>Консультации и работы по SEO</p>
+              <p>Услуги дизайнера</p>
+              <p>
+                Неиспользованные<br />
+                оплаченные часы переносятся<br />
+                на следующий месяц
+              </p>
+              <p>
+                Предоплата от 6000 рублей в<br />
+                месяц
+              </p>
+            </div>
+            <div class="tariff-btn text-align-center">
+              <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">Свяжитесь с нами!</button>
+            </div>
+          </div>
+          <div class="col-md-4 col-12 col-12 tariff-item active">
+            <div class="tariff-header">
+              <div class="tariff-name">
+                Бизнес
+                <hr />
+              </div>
+            </div>
+            <div class="tariff-desc">
+              <p>Консультации и работы по SEO</p>
+              <p>Услуги дизайнера</p>
+              <p>
+                Высокое время редакции - до 2 <br />
+                рабочих дней
+              </p>
+              <p>
+                Неиспользованные<br />
+                оплаченные часы не<br />
+                переносятся
+              </p>
+              <p>
+                Предоплата от 30000 рублей в<br />
+                месяц
+              </p>
+            </div>
+            <div class="tariff-btn text-align-center">
+              <button type="button" class="btn btn__center" data-bs-toggle="modal" data-bs-target="#exampleModal">Свяжитесь с
                 нами!</button>
-						</div>
-					</div>
-					<div class="col-md-4 col-12 col-12 tariff-item">
-						<div class="tariff-header">
-							<div class="tariff-name">
-								VIP
-								<hr />
-							</div>
-						</div>
-						<div class="tariff-desc">
-							<p>Консультации и работы по SEO</p>
-							<p>Услуги дизайнера</p>
-							<p>
-								Максимальное время реакции<br />
-								- в день обращения
-							</p>
-							<p>
-								Неиспользованные<br />
-								оплаченные часы не<br />
-								переносятся
-							</p>
-							<p>
-								Предоплата от 270 000 рублей в<br />
-								месяц
-							</p>
-						</div>
-						<div class="tariff-btn text-align-center">
-							<button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">Свяжитесь с нами!</button>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-12">
-				<div class="row text-center tariff-main-desc">
-					<p>
-						Вам не подходят наши тарифы? Оставьте заявку и мы <br />
-						предложим вам индивидуальные условия!
-					</p>
-				</div>
-				<div class="row text-center tariff-main-btn">
-					<div class="tariff-a">
-						<a href="#">Получить индивидуальный тариф</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!------------------------------------------------------------------------------------Tarif-->
-	<!--------------------------------------------------------------------------------Support --->
-	<div class="main-addition">
-		<div class="container">
-			<div class="col-md-12">
-				<div class="row">
-					<h2 class="addition-label">
-						Наши профессиональные разработчики <br />
-						выполняют быстро любые задачи
-					</h2>
-				</div>
-			</div>
-			<div class="col-md-12 additions-list">
-				<div class="row justify-content-around">
-					<div class="col-md-3 col-sm-4 col-12 addition-item">
-						<div class="addition-bg">
-							<img src="@/assets/img/competency-20.svg" class="img-fluid" />
-						</div>
-						<div class="addition-head">
-							<div class="addition-num">от 1ч</div>
-							<div class="addition-desc">
-								Настройка события GA <br />в интернет-магазине
-							</div>
-						</div>
-					</div>
-					<div class="col-md-3 col-sm-4 col-12 addition-item">
-						<div class="addition-bg">
-							<img src="@/assets/img/competency-21.svg" class="img-fluid" />
-						</div>
-						<div class="addition-head">
-							<div class="addition-num">от 20ч</div>
-							<div class="addition-desc">
-								Разработка мобильной <br />
-								версии сайта
-							</div>
-						</div>
-					</div>
-					<div class="col-md-3 col-sm-4 col-12 addition-item">
-						<div class="addition-bg">
-							<img src="@/assets/img/competency-22.svg" class="img-fluid" />
-						</div>
-						<div class="addition-head">
-							<div class="addition-num">от 8ч</div>
-							<div class="addition-desc">Интеграция <br />модуля оплаты</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+            </div>
+          </div>
+          <div class="col-md-4 col-12 col-12 tariff-item">
+            <div class="tariff-header">
+              <div class="tariff-name">
+                VIP
+                <hr />
+              </div>
+            </div>
+            <div class="tariff-desc">
+              <p>Консультации и работы по SEO</p>
+              <p>Услуги дизайнера</p>
+              <p>
+                Максимальное время реакции<br />
+                - в день обращения
+              </p>
+              <p>
+                Неиспользованные<br />
+                оплаченные часы не<br />
+                переносятся
+              </p>
+              <p>
+                Предоплата от 270 000 рублей в<br />
+                месяц
+              </p>
+            </div>
+            <div class="tariff-btn text-align-center">
+              <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">Свяжитесь с нами!</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-12">
+        <div class="row text-center tariff-main-desc">
+          <p>
+            Вам не подходят наши тарифы? Оставьте заявку и мы <br />
+            предложим вам индивидуальные условия!
+          </p>
+        </div>
+        <div class="row text-center tariff-main-btn">
+          <div class="tariff-a">
+            <a href="#">Получить индивидуальный тариф</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!------------------------------------------------------------------------------------Tarif-->
+  <!--------------------------------------------------------------------------------Support --->
+  <div class="main-addition">
+    <div class="container">
+      <div class="col-md-12">
+        <div class="row">
+          <h2 class="addition-label">
+            Наши профессиональные разработчики <br />
+            выполняют быстро любые задачи
+          </h2>
+        </div>
+      </div>
+      <div class="col-md-12 additions-list">
+        <div class="row justify-content-around">
+          <div class="col-md-3 col-sm-4 col-12 addition-item">
+            <div class="addition-bg">
+              <img src="@/assets/img/competency-20.svg" class="img-fluid" />
+            </div>
+            <div class="addition-head">
+              <div class="addition-num">от 1ч</div>
+              <div class="addition-desc">
+                Настройка события GA <br />в интернет-магазине
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-4 col-12 addition-item">
+            <div class="addition-bg">
+              <img src="@/assets/img/competency-21.svg" class="img-fluid" />
+            </div>
+            <div class="addition-head">
+              <div class="addition-num">от 20ч</div>
+              <div class="addition-desc">
+                Разработка мобильной <br />
+                версии сайта
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-4 col-12 addition-item">
+            <div class="addition-bg">
+              <img src="@/assets/img/competency-22.svg" class="img-fluid" />
+            </div>
+            <div class="addition-head">
+              <div class="addition-num">от 8ч</div>
+              <div class="addition-desc">Интеграция <br />модуля оплаты</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-	<!------------------------------------------------------------------------------------ Team -->
+  <!------------------------------------------------------------------------------------ Team -->
 	<div class="main-team">
 		<div class="container">
 			<div class="col-md-12">
@@ -577,8 +577,6 @@
 		</div>
 	</div>
 	<!------------------------------------------------------------------------------------Team -->
-
-	<AppReviews />
 
 	<!----------------------------------------------------------------------------------Cases -->
 	<div id="blogger" class="container blog my-4">
@@ -698,6 +696,22 @@
 			</div>
 		</div>
 	</div>
+
+	<!----------------------------------------------------------------------------------Reviews -->
+	<AppReviews />
+	<!----------------------------------------------------------------------------------Reviewsl -->
+	<!----------------------------------------------------------------------------------Carousel -->
+    <div class="mb-5">
+        <h1 class="carousel__title">С нами работают</h1>
+            <p class="carousel__text">Десятки компаний доверяют нам самое ценное, что у них есть в интернете – свои сайты. Мы делаем всё, чтобы наше сотрудничество было долгим.</p>
+            <div class="my-4">
+                <AppCarousel></AppCarousel>
+            </div>
+            <div class="my-4">
+                <AppCarousel></AppCarousel>
+            </div>
+    </div>
+    <!----------------------------------------------------------------------------------Carousel -->
 	<!----------------------------------------------------------------------------------faq -->
 	<div class="main-faq">
 		<div class="container">
@@ -1057,9 +1071,10 @@
 
 <script>
 import AppReviews from '@/components/AppReviews.vue'
+import AppCarousel from "@/components/AppCarousel.vue";
 export default {
 	name: 'AppContent',
-	components: { AppReviews },
+	components: {AppCarousel, AppReviews },
 }
 </script>
 
@@ -1290,7 +1305,7 @@ export default {
 	text-align: center;
 	font-size: 42px;
 	font-weight: 700;
-	margin: 200px 15px 30px 15px;
+	margin: 30px 15px 30px 15px;
 }
 .text-center3 {
 	text-align: center;
@@ -1301,8 +1316,6 @@ export default {
 /* workers*/
 
 /* team */
-
-/* Tafif */
 .main-tarrifs {
 	padding-top: 100px;
 	position: relative;
@@ -1446,11 +1459,6 @@ hr {
 .tariff-main-btn a {
 	color: #050c33;
 }
-
-
-
-
-/*end Tarif*/
 
 /* cases*/
 

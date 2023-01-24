@@ -147,7 +147,7 @@ export default {
 	text-align: center;
 	font-size: 42px;
 	font-weight: 700;
-	margin: 30px 15px 30px 15px;
+	margin: 150px 15px 30px 15px;
 }
 
 .img_palc {
